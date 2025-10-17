@@ -2,7 +2,9 @@
    Tricelerate 2.0 — Updated Stylesheet (complete)
    Includes: event card, preloader, modal, lightbox, GSAP-friendly tweaks
    ----------------------------------------------------- */
-
+* {
+   border: 1px solid red !important;
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -376,3 +378,4 @@ header h1 {
     max-height: none;
   }
 }
+
