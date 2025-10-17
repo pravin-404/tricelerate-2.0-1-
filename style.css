@@ -35,7 +35,7 @@ html, body {
 
 /* ---------- Event Card ---------- */
 .event-card {
-  max-width: 34rem; 
+  max-width: 36rem; 
   width: 100%;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -348,6 +348,11 @@ header h1 {
 
 /* responsive */
 @media (max-width: 640px) {
+  /* This rule fixes the vertical alignment on mobile */
+  body {
+    align-items: flex-start;
+  }
+
   .event-card { padding: 1.6rem; }
   header h1 { font-size: 1.8rem; }
   .reveal-text { font-size: 3rem; }
