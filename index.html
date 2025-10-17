@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tricelerate 2-0</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+</head>
+<body>
+
+    <div class="preloader">
+        <h1 class="reveal-text" aria-hidden="true">
+            <span>T</span><span>R</span><span>I</span><span>C</span><span>E</span><span>L</span><span>E</span><span>R</span><span>A</span><span>T</span><span>E</span>
+            <span class="space"></span> <span>2</span><span>.</span><span>0</span>
+        </h1>
+    </div>
+
+    <div class="event-card" role="main" aria-labelledby="eventTitle">
+        <header>
+            <h1 id="eventTitle">Tricelerate <span class="gradient-text-2-0">2.0</span></h1>
+        </header>
+
+        <div class="image-container">
+            <img id="posterImage" src="poster.jpg" alt="Tricelerate 2-0 Event Poster">
+        </div>
+
+        <div class="actions">
+            <button id="viewDetailsBtn" class="btn btn-primary" aria-haspopup="dialog" aria-controls="detailsModal">View Details</button>
+            <a href="https://tinyurl.com/Tricelerate-2-0" target="_blank" class="btn btn-secondary" id="registerBtn">Register Now</a>
+        </div>
+    </div>
+
+    <div id="detailsModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content" role="document" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <h3 id="modalTitle">Event Details</h3>
+                <button class="modal-close-btn" aria-label="Close details">Close</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text-content">
+                    <p>This workshop is a paid opportunity for students based on 3Cs of Innovation Culture to boost the innovative and creative skills. Challenge yourself to be more innovative by seeking this opportunity to engage in teams and learn from the basic level. Get a deep understanding of innovation processes through Create, Collaborate and Communicate (3Cs).</p>
+                    <h4>Terms and Conditions</h4>
+                    <ul>
+                        <li>24hrs Residential Workshop.</li>
+                        <li>Transportation will be available through main route after the workshop.</li>
+                        <li>Top 5 teams will be directly recruited to ResearchHub.</li>
+                        <li>Certificates will be provided.</li>
+                        <li>Bring laptops, if possible.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p class="contact-text">Any queries?</p>
+                    <a href="https://wa.me/916282575008" target="_blank" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
